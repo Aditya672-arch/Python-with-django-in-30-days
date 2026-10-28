@@ -1,10 +1,3 @@
-a = 5
-print(a)
-b = 4.7
-print(b)
-c = "abc123*"
-print(c)
-d = True
-print(d)
-e = None
-print(e)
+firstname = input("enter your first name: ")
+lastname = input("enter your last name: ")
+print(firstname,lastname)
