@@ -1,9 +1,5 @@
-a = 7
-b = 2
-print(a+b)
-print(a-b)
-print(a%b)
-print(a/b)
-print(a*b)
-print(a**b)
-print(a//b)
+per=int(input("Enter your percentage:- "))
+yr=int(input("Enter passing year:- "))
+#res=(per>=75 and yr==2024)
+res=(per>=75 or yr==2024)
+print("Result:", res)

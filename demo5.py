@@ -1,4 +1,15 @@
-a = 5
-b = 4
-c = 8
-print((a + b + c) / 3)
+a = 2
+print("a=",a)
+print("type=",type(a))
+print("address=",id(a))
+
+b=5.6
+print("b=",b)
+print("type=",type(b))
+print("address=",id(b))
+
+
+c=a
+print("c=",c)
+print("type=",type(c))
+print("address=",id(c))
