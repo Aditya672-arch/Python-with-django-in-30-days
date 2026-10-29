@@ -1,8 +1,8 @@
-a=5
-b=4
-print(a&b)
-print(a|b)
-print(a^b)
-print(~a)
-print(a<<1) #multiplication by 2
-print(a>>1) #division by 2
+#Print sum from 1 to n using while loop
+n = int(input("Enter a number: "))
+sum = 0
+i = 1
+while(i<=n):
+    sum = sum + i
+    i+=1
+print("Sum from 1 to", n, "is:", sum)

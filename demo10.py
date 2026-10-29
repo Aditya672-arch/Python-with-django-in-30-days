@@ -1,14 +1,13 @@
-# if and else statement
-age=int(input("Enter your age: "))
-if age>=18:
-    print("You are eligible for voting")
+#program for palindrome number
+n = int(input("Enter any number: "))
+res = 0
+temp = n
+print("before reverse", temp)
+while(n!=0):
+    a = n%10
+    res = (res*10)+a
+    n=n//10
+if(res==temp):
+    print(temp, "is a palindrome number")
 else:
-    print("You are not eligible for voting")
-
-
-
-#find maximum number
-a = int(input("Enter first number:- "))
-b = int(input("Enter second  number:- "))
-c = max(a, b)
-print("The maximum number is:-", c)
+    print(temp, "is not a palindrome number")

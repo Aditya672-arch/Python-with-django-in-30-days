@@ -1,13 +1,12 @@
-'''str1 = "python is a programming language"
-search = "python"
-res=search in str1
-print(res)'''
-
-
-
-str1 = "python is a programming language"
-#search = "python"
-#search = "java"
-search = "Python"   #P is in capital letter
-res=search not in str1
-print(res)
+#to check whether a number is armstrong or not
+n = int(input("Enter a number: "))
+res = 0
+temp = n
+while(n!=0):
+    a=n%10
+    res=(a**3)+res
+    n=n//10
+if(res==temp):
+    print(temp, "is an armstrong number")
+else:
+    print(temp, "is not an armstrong number")

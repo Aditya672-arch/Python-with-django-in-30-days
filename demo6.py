@@ -1,13 +1,7 @@
-a = 54
-print(id(a))
-b = 45
-print(id(b))
-res=a is not b
-print(res)
-
-a = 54
-print(id(a))
-b = 45
-print(id(b))
-res=a is b
-print(res)
+#prg for print a table of a number using while loop
+n = int(input("Enter a number: "))
+a = 1
+while (a<=10):
+    result = n*a
+    print(n, "*", a, "=", result)
+    a+=1

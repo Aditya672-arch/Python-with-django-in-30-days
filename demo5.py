@@ -1,15 +1,12 @@
-a = 2
-print("a=",a)
-print("type=",type(a))
-print("address=",id(a))
-
-b=5.6
-print("b=",b)
-print("type=",type(b))
-print("address=",id(b))
+#Prg. for display 1 to 10 numbers using while loop
+a=1
+while(a<=10):
+    print(a, end="  ")
+    a+=1
 
 
-c=a
-print("c=",c)
-print("type=",type(c))
-print("address=",id(c))
+
+a=10
+while(a>=1):
+    print(a, end="  ")
+    a-=1
