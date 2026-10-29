@@ -1,5 +1,6 @@
-per=int(input("Enter your percentage:- "))
-yr=int(input("Enter passing year:- "))
-#res=(per>=75 and yr==2024)
-res=(per>=75 or yr==2024)
-print("Result:", res)
+#year check
+a = int(input("Enter a year: "))
+if (a%4==0 and a%100!=0) or (a%400==0):
+    print(a, "is a leap year")
+else:
+    print(a, "is not a leap year")
