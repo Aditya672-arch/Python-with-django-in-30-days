@@ -1,12 +1,11 @@
-#Prg. for display 1 to 10 numbers using while loop
-a=1
-while(a<=10):
-    print(a, end="  ")
-    a+=1
-
-
-
-a=10
-while(a>=1):
-    print(a, end="  ")
-    a-=1
+#prg for fibonacci series
+n = int(input("Enter the limit: "))
+a = 0
+b = 1
+print(a) #0
+print(b) #1
+for i in range(1, n+1):
+    c = a + b
+    print(c)
+    a = b   #a=1
+    b = c   #b=1
