@@ -1,11 +1,6 @@
-n=int(input("Enter any number:- "))
-if (n%3==0):
-    print("The number is divisible by 3")
-if (n%5==0):
-    print("The number is divisible by 5")
-if (n%9==0):
-    print("The number is divisible by 9")
+for i in range(1, 3):
 
-
-
+    for j in range (1, 3):
+        print("*", end= " ")
+    print()
 

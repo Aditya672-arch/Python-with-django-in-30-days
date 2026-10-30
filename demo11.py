@@ -1,7 +1,3 @@
-a=int(input("Enter any number:- "))
-if (a==0):
-    print("The number is zero")
-if (a>0):
-    print("The number is positive")
-if (a<0):
-    print("The number is negative") 
+#program to print A to Z using ascii value
+for i in range(65, 90):
+    print(chr(i),end=" ")
