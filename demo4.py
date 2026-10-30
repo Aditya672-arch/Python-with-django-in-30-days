@@ -1,6 +1,8 @@
-#year check
-a = int(input("Enter a year: "))
-if (a%4==0 and a%100!=0) or (a%400==0):
-    print(a, "is a leap year")
-else:
-    print(a, "is not a leap year")
+import sys
+#for in loop
+for x in range(1, 11):
+    #if (x==6):
+    if (x==6):    
+        sys.exit()
+    print(x, end=" ")
+print("prg ends here")
