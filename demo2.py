@@ -1,7 +1,5 @@
-#for in loop
-for x in range(1, 11):
-    #if (x==6):
-    if (x==6 or x==9):    
-        break
-    print(x, end=" ")
-print("prg ends here")
+#list methods
+#append() - to add new data in list at the end
+a = [10, 20, 30]
+a.append(40)
+print(a)
