@@ -1,4 +1,6 @@
-# prg using for in loop 3 6 9 12 ...... 30
-#n = int(input("Enter the limit: "))
-for x in range(3, 31, 3):
-    print(x, end=" ")
+a=[10, 20, 30]
+b=[11, 12, 13, 10]
+a.extend(b)
+print(a)
+del(a)
+#print(a) name error is not defined
