@@ -1,7 +1,9 @@
-#for in loop
-for x in range(1, 11):
-    #if (x==6):
-    if (x==6 or x==9 or x==2):    
-        continue
-    print(x, end=" ")
-print("prg ends here")
+a=[10, 12, 84, 45, 9, 12]
+print(a)
+#a.pop()
+a.pop(1)
+print(a)
+#a.sort()                   #for ascending
+a.sort(reverse= True)       #for descending
+a.reverse()
+print(a)
