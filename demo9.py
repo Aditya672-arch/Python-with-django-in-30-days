@@ -1,12 +1,10 @@
-# list wiht member ship operator
-list1=[2,56,7,9,10]
-s=int(input("enter data to be search: "))
-found = 0
-for i in range(0, len(list1)):
-    if(list1[i]==s):
-        found = 1
-        break
-if (found == 1):
-    print("data found")
-else:
-    print("data not found")
+#packing in tuple
+def addition(*x):  #function defintition
+    print(sum(x))
+#function calling
+addition(10)
+addition(10, 20)
+addition(10, 20, 30)
+addition(10, 20, 30, 40)
+addition(10, 20, 30, 40, 50)
+addition(10, 20, 30, 40, 50, 60)
