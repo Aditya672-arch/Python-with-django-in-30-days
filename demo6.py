@@ -1,6 +1,10 @@
-a=[10, 20, 30]
-b=[11, 12, 13, 10]
-a.extend(b)
+#nested list - a list within in a list 
+#called nested list
+a  = [[1, 2], [3, 4], [5, 6]]
 print(a)
-del(a)
-#print(a) name error is not defined
+print(a[0][0])
+a[0][0]=11
+print(a)
+print(a[2][0])
+a.clear()
+print(a)
