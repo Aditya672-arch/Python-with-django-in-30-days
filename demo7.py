@@ -1,8 +1,9 @@
-#program for dynamic list
-a  = []
-n= int(input("Enter the limit: "))
-for i in range(0,n):
-    data=int(input("enter new data: "))
-    a.append (data)
-print("list all data")
+#create a new tuple
+a = (10, 20, 30, 40, 50)
+print(type(a))
 print(a)
+#number function
+print("max -", max (a))
+print("min -", min (a))
+print("sum -", sum (a))
+print("length -", len (a))
