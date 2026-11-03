@@ -1,22 +1,14 @@
-a= [23, 5, 6 ,8, 10, 44, 8, 10, 10]
+#prg for 
+a = [5, 4, 1, 2, 3]
+print("before sorting: ")
 print(a)
-#a.remove(11) #value error
-a.remove(6)
-print(a)
-
-
-a.insert(20, 200)
-#a.insert(2, 100)
-print(a)
-
-
-
-
-print(a.count(10))
-
-
-
-a.clear()
-a.append(11)
-a.append(12)
+n=len(a)
+#for no. of rounds
+for i in range(0,n):
+    for j in range(0, n-1-i):
+        if(a[j]>a[j+1]):
+            temp = a[j]
+            a[j]=a[j+1]
+            a[j+1]=temp
+print("after sorting: ")
 print(a)
